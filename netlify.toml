@@ -1,0 +1,8 @@
+[build]
+  publish = "dist" # Replace 'dist' with your actual output directory
+  command = "npm run build"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Content-Type = "application/javascript"
